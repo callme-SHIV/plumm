@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="">
+    
+    <nav >
+        <a class="anchor" href="C:\Users\Shivam\Documents\practice reponsive\plumm\shop.html">Shop</a> 
+        <a class="anchor" href="https://www.queengarnet.com/recipes">Recepies</a> 
+        <a onclick="nav()"  class="anchor" href="#">Find a store</a> 
+        <a class="anchor" href=""><i class="fa-brands fa-instagram"></i></a>
+        <span id="a"><a class="anchor" href="https://www.queengarnet.com/research">Research</a></span>
+        <a class="anchor" href="https://www.queengarnet.com/journal">Journal</a> 
+        <a class="anchor" href="C:\Users\Shivam\Documents\practice reponsive\plumm\Aboutus.html">About us </a>
+        <div class="icon-cart anchor"  ><i style="font-size: 20px;" class="fa-solid fa-cart-shopping"> <span class="cartvalue">0</span></i></div>
+
+    </nav>
+      
+       <h1 id="heading1">EMBRACE MAJESTY</h1>
+       <h1 id="heading2">ANYTIME</h1>
+       <div class="navbarr flex">
+        
+      <a class="link"><div id="img"> </div></a> <button class="button1" >AUSTRALIAN POWDER <br> PLUM <br> $20</button>    
+      <a class="link2"><div id="img2"> </div></a> <button class="button2" >PROBIOTIC AND <br> PREBIOTIC <br> $20</button>    
+
+      <a class="link3"><div id="img3"> </div></a> <button class="button3" >AUSTRALIAN PLUM <br> NECTOR <br> $20</button>    
+
+      <a class="link4"><div id="img4"> </div></a> <button class="button4" >AUSTRALIAN PLUM <br> SYRUP <br> $20</button>    
+       
+       </div>
+     
+
+       <div class="inline">
+        <h3 class="h3tag">LOOKING TO BUY IN-STORE?</h3>
+        <button onclick="showRoute('divrange')"  class="range"> THE RANGE   </button>
+        <button onclick="showRoute('divfruit')" class="fruit "> THE FRUIT   </button>
+        <button onclick="nav()" class="store"> FIND A STORE  </button>
+       </div>
+
+       <!-- side navbar -->
+
+       <div id="navbar" class="sidebar">
+        <h1 class="hed">FIND A STORE </h1>
+        <button onclick="closee()" class="close">X</button>
+        <input class="search" id="search-items" onkeyup="search()" type="text" placeholder="Please Enter Your Product">
+        <button id="search"><i style="font-size: 24px;" class="fa fa-search" aria-hidden="true"></i></button>
+        <p class="navpara">The Queen's extended range of royal products may not be available at every store. To avoid disappointment, please contact the store for product information. If you'd like Queen Garnet products stocked at your local store, please contact us at info@nutrafruit.com.au    </p>
+        <div class="scrolll" id="scrolll">
+            <h1 class="nav-shop"> <span id="head2">  PLUM =  $20  </span></h1>
+            <h1 class="nav-shop"><span id="head2">AUSTRALIAN POWDER = $20 </span></h1>
+            <h1 class="nav-shop"> <span id="head2">PROBIOTIC AND PREBIOTIC POWDER = $25 </span></h1>
+            <h1 class="nav-shop"><span id="head2">PLUM NECTOR =  $30 </span></h1>
+            <h1 class="nav-shop"><span id="head2"> PLUM SYRUP = $40 </span></h1>
+            <h1 class="nav-shop"><span id="head2"> PLUM = $20 </span></h1>
+            <h1 class="nav-shop"><span id="head2">PROBIOTIC POWDER = $25 </span></h1>
+            <h1 class="nav-shop"><span id="head2"> POWDER PLUM = $30 </span></h1>
+            <h1 class="nav-shop"><span id="head2"> ROOT = $40 </span></h1>
+            <h1 class="nav-shop"><span id="head2"> JAM = $25 </span></h1>
+            <h1 class="nav-shop"><span id="head2"> PROBIOTIC JAM = $35 </span></h1>
+            <h1 class="nav-shop"><span id="head2">PLUM PURIST = $40 </span></h1>
+            <h1 class="nav-shop"><span id="head2">THE DAILY BOOST = $45 </span></h1>
+            <h1 class="nav-shop"><span id="head2">THE SUNDAY BAKER = $55 </span></h1>
+            <h1 class="nav-shop"><span id="head2"> THE PURPLE BAKER = $55 </span></h1>
+            
+            
+        </div>
+       </div>
+
+
+    <div id="divrange" class="rangee-content active">
+        <h2 id="hd1">Majesty is always in season. Find our Nectar in Woolworths</h2>
+        <h2 id="hd2">and Harris Farms, and the rest of the range in select</h2>
+        <h2 id="hd3">pharmacies and health food stores in Queensland            </h2>
+        <h1 id="hd4">THE PERFECT</h1>
+        <h1 id="hd5">COMBINATIONS        </h1>
+        <div class="flexx">
+         <a  href=""><a class="link5"><div id="img"> </div></a> <button class="button5" >AUSTRALIAN POWDER <br> PLUM <br> $20</button>   </a>  
+         <a  href=""><a class="link6"><div id="img2"> </div></a> <button class="button6" >PROBIOTIC AND <br> PREBIOTIC <br> $20</button>   </a>  
+
+         <a  href=""><a class="link7"><div id="img3"> </div></a> <button class="button7" >AUSTRALIAN PLUM <br> NECTOR <br> $20</button>   </a>  
+        </div>
+    </div>
+    <div id="divfruit" class="rangee-content">
+            <h2 id="hd1">One's visits are fleeting! You can enjoy the majesty of our</h2>
+            <h2 id="hd2">fresh, juicy Queen Garnet plums every year from February          </h2>
+            <h2 id="hd3">until April. When she's not in season, you can shop her          </h2>
+            <h1 id="hd4">PERFECT NEW</h1>
+            <h1 id="hd5">PRODUCTS HERE        </h1>
+            <div class="flex">
+             <a  href=""><a class="link5"><div id="img"> </div></a> <button class="button5" >THE PLUM  <br> PURIST <br> $200</button>   </a>  
+             <a  href=""><a class="link6"><div id="img2"> </div></a> <button class="button6" >THE DAILY  <br> BOOST <br> $100</button>   </a>  
+    
+             <a  href=""><a class="link7"><div id="img3"> </div></a> <button class="button7" >THE SUNDAY  <br> BAKER <br> $120</button>   </a>  
+            </div>
+    </div>
+     <div class="recepies">
+        <h2 class="royal">    ROYAL RECEPIES</h2>
+        <div class="recepiecontainer">
+            <div class="container1">
+                <div class="classs imgg1"></div>
+            </div>
+            <div class="container2">
+                <div class="classs imgg2"></div>
+            </div>
+            <div class="container3">
+                <div class="classs imgg3"></div>
+            </div>
+        </div>
+        <div class="details">
+            <div class="inner">
+               <a style="color: #43283A;  text-decoration: none;" href="https://www.queengarnet.com/recipes/granola-jar"> <h1 class="name">Granola Jar</h1></a>
+               <a style="color: #43283A;  text-decoration: none;" href="https://www.queengarnet.com/recipes/granola-jar"> <p class="parafor">A Healthy Antioxidant breakfast idea for busy mornings</p></a>
+            </div>
+            <div class="inner">
+                <a href="https://www.queengarnet.com/recipes/plum-latte"></a><h1 class="name name1">Pum Latte</h1></a>
+                <a href="https://www.queengarnet.com/recipes/plum-latte"></a><p class="parafor ">The easy probiotic enhanced dish a caffeine free vibraant pink latte</p></a>
+            </div>
+            <div class="inner">
+                <a href="https://www.queengarnet.com/recipes/plum-crumble-bars"></a><h1 class="name">Plum Crumble Bars</h1></a>
+                <a href="https://www.queengarnet.com/recipes/plum-crumble-bars"></a><p class="parafor">Australia  fvourite sumer fruit in all her glory sandwiched between a spelt crust</p></a>
+            </div>
+     </div>
+     </div>
+
+
+     <div class="plum">
+        <h2 id="hone">FOR YOUR </h2>
+        <h2 id="htwo">  WELLBEING. FOR</h2>
+          <h2 id="hthree">   YOUR MAJESTY</h2>
+          <h3 id="hfour">INDEPENDENTLY STUDIED BY LEADING RESEARCH ORGANISATIONS</h3>
+         </div>
+  
+  
+         <div class="last">
+          <div class="logo">
+           
+          </div>
+          <h1 class="hone">TELEGRAM FROM <br> THE QUEEN</h1>
+          <input class="form" type="email" placeholder="Email@email.com">
+          <button class="buttonn">Ok</button>
+          <p class="pg">Sign up to receive 10% off your first order. By signing up I agree to  <br> <br> Terms & Conditions</p>
+          <h2 class="nature">NutraFruit</h3>
+              <h3 class="focus">Naturally better</h3>
+              
+                  <a class="linkk links"  href="">PRIVACY & TERMS</a>
+                  <a class="linkk" href="">PARTNERSHIPS</a>
+                  <a class="linkk" href="">GET IN TOUCH</a>
+                  <a class="linkk" href="">98181818181</a>
+                   <a class="linkk" href="">FIND US</a>
+             
+              <p class="done">Copyright © 2021 Nutrafruit. All rights reserved</p>
+         </div>
+         
+
+<!-- cart -->
+
+<div class="cartTab"> 
+    <h1>Shopping Cart</h1>
+
+    <!-- list of items in cart -->
+    <div class="listCart">
+        
+    </div>
+
+    <!-- cartbuttons -->
+    <div class="btnn">
+        <button class="closee">CLOSE</button>
+        <button class="checkOut">Check Out</button>
+    </div>
+</div>
+
+
+        
+    
+        <script src="shop.js"></script>
+        <script src="cart.js"></script>
+      
+</body>
+</html>
